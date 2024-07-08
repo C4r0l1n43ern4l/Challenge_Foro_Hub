@@ -1,5 +1,8 @@
 # Challenge_Foro-Hub
 
+![Badge-Spring](https://github.com/C4r0l1n43ern4l/Challenge_Foro_Hub/assets/90581744/b1939b11-f93b-4ac6-8be0-936d7fb60dc1)
+
+
 Este es un programa que fue desarrollado como el tercer Challenger propuesto por Alura - G6 en la especialización de Backend. 
 El programa consiste en una API REST usando Spring para crear un foro a nivel de backend, en donde los usuarios podrán realizar un CRUD (crear, listar, actualizar o eliminar) un tópico
 que se encuentre en la Base de datos, todo esto se llevará a cabo solo si el usuario se encuentra registrado, se autentica y la aplicación le genera un Token. 
