@@ -5,7 +5,7 @@ El programa consiste en una API REST usando Spring para crear un foro a nivel de
 que se encuentre en la Base de datos, todo esto se llevará a cabo solo si el usuario se encuentra registrado, se autentica y la aplicación le genera un Token. 
 
 ## Funcionalidades del proyecto
-- `Funcionalidad 1:` El proyecto ofrece varias funcionalidades las cuales se desarrollaron siguiendo las reglas de negocio y se encuentra divididas en Enpoints para realizar los CRUD que se encuentral en usuarioController, topicoController y autenticacionController.
+- `Funcionalidad 1:` El proyecto ofrece varias funcionalidades las cuales se desarrollaron siguiendo las reglas de negocio y se encuentra divididas en Enpoints para realizar los CRUD que se encuentra en usuarioController, topicoController y autenticacionController.
   ![endpoint](https://github.com/C4r0l1n43ern4l/Challenge_Foro_Hub/assets/90581744/19531650-278f-4cad-9cdc-ec1d3e69c18a)
 
 - `Funcionalidad 2:` Se implemento una base de datos relacional para la persistencia de la información, hasta el momento consta de dos tablas, previamente estructuradas como entidades (Tópicos y Usuarios).
