@@ -5,15 +5,18 @@ El programa consiste en una API REST usando Spring para crear un foro a nivel de
 que se encuentre en la Base de datos, todo esto se llevará a cabo solo si el usuario se encuentra registrado, se autentica y la aplicación le genera un Token. 
 
 ## Funcionalidades del proyecto
-- `Funcionalidad 1:` El proyecto ofrece varias funcionalidades las cuales se desarrollaron siguiendo las reglas de negocio y se encuentra divididas en Enpoints.
+- `Funcionalidad 1:` El proyecto ofrece varias funcionalidades las cuales se desarrollaron siguiendo las reglas de negocio y se encuentra divididas en Enpoints para realizar los CRUD que se encuentral en usuarioController, topicoController y autenticacionController.
   ![endpoint](https://github.com/C4r0l1n43ern4l/Challenge_Foro_Hub/assets/90581744/19531650-278f-4cad-9cdc-ec1d3e69c18a)
 
-- `Funcionalidad 2:` Además se implemento una base de datos relacional para la persistencia de la información.
+- `Funcionalidad 2:` Se implemento una base de datos relacional para la persistencia de la información, hasta el momento consta de dos tablas, previamente estructuradas como entidades (Tópicos y Usuarios).
   ![modelo-entidad-relacion](https://github.com/C4r0l1n43ern4l/Challenge_Foro_Hub/assets/90581744/c8788444-293e-457c-abfb-628030e6e3ad)
 
-- `Funcionalidad 3:` Cuenta con servicio de autenticación/autorización para restringir el acceso a la información.
+- `Funcionalidad 3:` Cuenta con servicio de autenticación/autorización para restringir el acceso a la información. Solo se podrá acceder mediante un Token
   ![token_security](https://github.com/C4r0l1n43ern4l/Challenge_Foro_Hub/assets/90581744/0316b40f-163f-4962-8e7b-6f83a51cd7ff)
 
+  ![login](https://github.com/C4r0l1n43ern4l/Challenge_Foro_Hub/assets/90581744/994535f0-165b-4f86-8444-95cf6c28da9e)
+
+- `Funcionalidad 4:` Se documento el proyecto usando la dependencia springdoc-openapi la cual funciona examinando una aplicación en tiempo de ejecución para inferir la semántica de API en función de las configuraciones de Spring, la estructura de clases y varias anotaciones de swagger-api.
 
 ## Cómo acceder al proyecto
 Para poder acceder al proyecto solo debe clonarlo desde la URL de github:
