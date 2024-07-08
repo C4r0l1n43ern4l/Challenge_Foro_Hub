@@ -1,7 +1,7 @@
 # Challenge_Foro-Hub
 
 Este es un programa que fue desarrollado como el tercer Challenger propuesto por Alura - G6 en la especialización de Backend. 
-El programa consiste en una API REST usando Spring para crear un foro a nivel de backend, en donde los usuarios podrán crear, actualizar, listar o eliminar un tópico
+El programa consiste en una API REST usando Spring para crear un foro a nivel de backend, en donde los usuarios podrán realizar un CRUD (crear, listar, actualizar o eliminar) un tópico
 que se encuentre en la Base de datos, todo esto se llevará a cabo solo si el usuario se encuentra registrado, se autentica y la aplicación le genera un Token. 
 
 ## Funcionalidades del proyecto
@@ -17,8 +17,10 @@ que se encuentre en la Base de datos, todo esto se llevará a cabo solo si el us
 
 ## Cómo acceder al proyecto
 Para poder acceder al proyecto solo debe clonarlo desde la URL de github:
-
 https://github.com/C4r0l1n43ern4l/Challenge_Foro_Hub.git
+
+![clona-proyecto](https://github.com/C4r0l1n43ern4l/Challenge_Foro_Hub/assets/90581744/25c480e6-f2dd-499a-9211-ddd05e68d8ce)
+
 
 ## Tecnología Usada
 - Java JDK: versión 17.
