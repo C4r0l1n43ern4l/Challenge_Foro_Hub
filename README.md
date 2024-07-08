@@ -2,7 +2,7 @@
 
 Este es un programa que fue desarrollado como el tercer Challenger propuesto por Alura - G6 en la especialización de Backend. 
 El programa consiste en una API REST usando Spring para crear un foro a nivel de backend, en donde los usuarios podrán crear, actualizar, listar o eliminar un tópico
-que se encuentre en la Base de datos, todo esto se llevará a cabo solo si el usuario se encuentra registrado en la BD, se autentica y que la aplicación le genera un Token. 
+que se encuentre en la Base de datos, todo esto se llevará a cabo solo si el usuario se encuentra registrado, se autentica y la aplicación le genera un Token. 
 
 ## Funcionalidades del proyecto
 - `Funcionalidad 1:` El proyecto ofrece varias funcionalidades las cuales se desarrollaron siguiendo las reglas de negocio y se encuentra divididas en Enpoints.
